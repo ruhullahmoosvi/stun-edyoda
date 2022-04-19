@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.top-container{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    justify-content: space-between;
+
+    
+    flex-wrap: wrap;
+
+}
+.top-list{
+    margin: 5px 5px 5px 5px;
+}
+.list-item{
+    display: inline-block;
+    padding: 15px;
+    list-style-type: none;
+}
+.list-item a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.list-item a:hover{
+    border-bottom: 3px solid blue;
+}
+.top-account{
+    box-sizing: content-box;
+    background-color:#FFD8DB ;
+    border-radius: 20px;
+    color:#A389CC;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    padding-top: 15px;
+    margin-right: 10px;
+}
+.top-account a{
+    text-decoration: none;
+}
+.top-logo img{
+    height: 50px;
+    width: 100px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+.main .left{
+    flex: 1fr;
+}
+.main .left h1{
+    font-size: 70px;
+    margin-bottom: 22px;
+}
+.main .main-image{
+    flex:1fr;
+    width: 20%;
+}
+#newacc{
+    box-sizing: border-box;
+    margin-top:30px;
+    padding:10px;
+    background-color:#391baf;
+    border-radius: 20px;
+    height: 40px;
+    width: 130px;
+    text-align: center;
+}
+
+#newacc a{
+    color:fff;
+    text-decoration: none;
+}
+.table{
+    margin-top:30px;
+    padding: 10px;
+    border-radius: 20px;
+
+    background-color:rgb(252, 247, 247);
+}
+tr td{
+    width:100px;
+}
+tr:hover {
+    background-color: fff;
+}
+.tick img:hover{
+    content:url("Images/tick-blue.png");
+}
+
+tr:hover td {
+    background-color: transparent;
+}
+.sub{
+    display: flex;
+}
