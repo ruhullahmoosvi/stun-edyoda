@@ -92,7 +92,7 @@ tr td{
     width:100px;
 }
 tr:hover {
-    background-color: fff;
+     background-color: powderblue;
 }
 .tick img:hover{
     content:url("Images/tick-blue.png");
